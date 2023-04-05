@@ -30,3 +30,34 @@ nav ul{
 nav ul li{
     padding: 0 12px;
 }
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 34px;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display:flex;
+    width:70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image:url('./assets/bg.jpg');
+}
+
+#myProgressbar{
+    width: 80vw;
+}
