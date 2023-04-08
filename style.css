@@ -47,17 +47,49 @@ nav ul li{
 }
 
 .container{
-    min-height: 70vh;
+    min-height: 72vh;
     background-color: black;
     color: white;
-    display:flex;
-    width:70%;
-    margin: 23px auto;
-    border-radius: 12px;
-    padding: 34px;
-    background-image:url('./assets/bg.jpg');
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('./assets/bg.jpg');
+   
 }
 
 #myProgressbar{
     width: 80vw;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+ 
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 48px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
 }
